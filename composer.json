@@ -1,0 +1,13 @@
+{
+    "name": "christian/wp-user-excel-import",
+    "description": "Excel Benutzerimport",
+    "type": "wordpress-plugin",
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "UEI\\": "includes/"
+        }
+    }
+}
