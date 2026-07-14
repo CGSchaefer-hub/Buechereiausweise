@@ -21,8 +21,6 @@ class UEI_Plugin
     private function __construct()
     {
 
-        require_once UEI_PLUGIN_DIR . 'class_exists';
-
         require_once UEI_PLUGIN_DIR . 'includes/class-admin.php';
         require_once UEI_PLUGIN_DIR . 'includes/class-importer.php';
         require_once UEI_PLUGIN_DIR . 'includes/class-user.php';
